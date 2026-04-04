@@ -115,6 +115,8 @@ export async function getUser() {
       select: {
         id: true,
         email: true,
+        name: true,
+        bio: true,
         createdAt: true,
       },
     });
